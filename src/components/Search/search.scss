@@ -1,0 +1,26 @@
+.search-container {
+    position: relative;
+
+    & .search { 
+        width: 100%;
+        max-width: 500px;
+        padding: 9px 4px 9px 40px;
+        border-radius: 5px;
+        height: 50px;
+        overflow: hidden;
+        border: 1px solid transparent;
+        outline: none;
+
+        &::-webkit-search-decoration,
+        &::-webkit-search-cancel-button,
+        &::-webkit-search-results-button,
+        &::-webkit-search-results-decoration { display: none; }
+    }
+
+    & .search-icon {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+}
+

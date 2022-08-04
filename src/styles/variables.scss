@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+// color palette
+$dark_blue: hsl(209, 23%, 22%);
+$extra_dark_blue: hsl(207, 26%, 17%);
+$ultra_dark_blue: hsl(200, 15%, 8%);
+$dark_gray: hsl(0, 0%, 52%);
+$light_gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+// font variables
+$nunito: 'Nunito Sans';
+
+// font size of different page
+$homepage_font_size: 14px;
+$detailpage_font_size: 16px;
+
+// font weights
+$font_weight_light: 300;
+$font_weight_medium: 600;
+$font_weight_bol: 800;

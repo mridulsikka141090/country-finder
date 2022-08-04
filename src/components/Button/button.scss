@@ -1,0 +1,9 @@
+.button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    & .icon {
+        padding-right: 10px;
+    }
+}
