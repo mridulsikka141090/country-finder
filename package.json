@@ -1,7 +1,7 @@
 {
   "name": "gap",
   "version": "0.1.0",
-  "homepage": "http://mridulsikka141090.github.io/country-finder",
+  "homepage": "https://mridulsikka141090.github.io/country-finder",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
