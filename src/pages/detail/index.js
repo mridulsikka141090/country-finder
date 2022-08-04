@@ -23,7 +23,7 @@ const DetailPage = ({ theme, toggleTheme }) => {
     }, []);
 
     const onBackButton = () => {
-        navigate('/');
+        navigate('/country-finder');
     };
 
     const firstLoad = useRef(true);
@@ -101,7 +101,7 @@ const DetailPage = ({ theme, toggleTheme }) => {
                     {borderData.length ? <div className="detail-countries">
                         <p>Border Countries: </p>
                         {borderData?.map(border => {
-                            return <Link to={`/country/${border?.cca3}`}><div className="borders"><Button text={border?.name?.common} /></div></Link>
+                            return <Link to={`/country-finder/country/${border?.cca3}`}><div className="borders"><Button text={border?.name?.common} /></div></Link>
                         })}
 
                     </div> : null}

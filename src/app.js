@@ -18,8 +18,8 @@ const App = () => {
     return <Router>
         <div className={theme === 'Dark' ? 'dark' : 'light'}>
             <Routes>
-                <Route exact path="/" element={<HomePage theme={theme} toggleTheme={toggleTheme} />} />
-                <Route exact path="/country/:id" element={<DetailPage theme={theme} toggleTheme={toggleTheme} />} />
+                <Route exact path="/country-finder/" element={<HomePage theme={theme} toggleTheme={toggleTheme} />} />
+                <Route exact path="country-finder/country/:id" element={<DetailPage theme={theme} toggleTheme={toggleTheme} />} />
             </Routes>
         </div>
     </Router>

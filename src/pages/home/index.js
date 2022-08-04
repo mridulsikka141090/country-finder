@@ -52,7 +52,7 @@ const HomePage = ({ theme, toggleTheme }) => {
     }
 
     const onCountryClick = (country) => {
-        navigate(`/country/${country?.id}`);
+        navigate(`/country-finder/country/${country?.id}`);
     }
 
     const onFilterSelect = (selectedOption) => {
